@@ -1,14 +1,14 @@
+<div class="header">
+<div class="logo">
+  <%= image_tag 'logo.png', alt: 'MySite', size: '130x70' %>
+</div>
+
 <nav>
-  <ul>
-    <% if user_signed_in? %>
-        <li><%= link_to 'Log out', destroy_user_session_path, method: :delete %></li>
-    <% else %>
-        <li><%= link_to 'Portfolio', top_path %></li>
-        <li><%= link_to 'Feature', top_path %></li>
-        <li><%= link_to 'Profile', top_path %></li>
-        <li><%= link_to 'Contact', top_path %></li>
-        <li><%= link_to 'Sign up', new_user_registration_path %></li>
-        <li><%%= link_to 'Log in', new_user_session_path %></li>
-    <% end %>
+  <ul class="nav-list">
+        <li class="nav-item"><%= link_to 'Portfolio', top_path %></li>
+        <li class="nav-item"><%= link_to 'Feature', top_path %></li>
+        <li class="nav-item"><%= link_to 'Profile', top_path %></li>
+        <li class="nav-item"><%= link_to 'Contact', top_path %></li>
   </ul>
 </nav>
+</div>

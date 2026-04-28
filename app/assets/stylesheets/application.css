@@ -14,3 +14,20 @@
  *= require_self
  */
 
+.header {
+  background-color: #EC715F;
+
+  height: 70px;
+  display: flex;
+}
+
+.nav-list{
+  display: flex;
+  list-style: none;
+}
+
+.nav-item a {
+  margin: 0 30px;
+  color: #FAFAFA;
+  text-decoration: none;
+}
