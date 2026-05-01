@@ -215,21 +215,57 @@
   justify-content: center;
 }
 
-.profile-item-name {
+.item-title {
   font-size: 20px;
   color: #000000;
   font-weight: bold;
   margin-bottom: 5px;
 }
 
-.profile-item-body {
+.item-body {
   font-size: 16px;
   color: #000000;
   margin-bottom: 20px;
 }
 
+.contact {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.contact-container {
+  width: 800px;
+  padding: 90px 0;
+}
+
+.contact-items {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-item {
+  width: 400px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-item-content {
+  text-align: left;
+}
+
+.sns-icon {
+  display: flex;
+  gap: 10px;
+  font-size: 50px;
+}
+
 .footer {
   background-color: #EC715F;
+  width: 100%;
   height: 60px;
   display: flex;
   justify-content: center;
