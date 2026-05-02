@@ -272,3 +272,70 @@
   align-items: center;
   color: #FAFAFA;
 }
+
+@media screen and (max-width: 767px) {
+  .header {
+    height: 50px;
+    width: 100%;
+  }
+  .header-container {
+    width: 90%;
+    height: 50px;
+    padding: 5px 0;
+    margin: 0 auto;
+  }
+  .main-visual {
+    height: 650px;
+    padding-top: 200px;
+    background-image: url("code.png");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+  }
+
+  .main-visual-container {
+    width: 90%;
+  }
+
+  .main-visual-title {
+    font-size: 40px;
+    color: #FAFAFA;
+    margin-bottom: 10px;
+  }
+
+  .main-visual-subtitle {
+    font-size: 18px;
+    color: #FAFAFA;
+  }
+
+  .portfolio-container {
+    width: 90%;
+    padding: 90px 0;
+  }
+
+  .content-title {
+    font-size: 32px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .content-title::after {
+    content: "";
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #EC715F;
+    margin: 0 auto;
+  }
+
+  .content-body {
+    font-size: 16px;
+    color: #000000;
+    text-align: center;
+    margin: 30px 0;
+  }
+
+
+}

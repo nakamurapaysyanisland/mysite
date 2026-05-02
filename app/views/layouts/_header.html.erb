@@ -1,14 +1,19 @@
 <div class="header-container">
   <div class="logo">
-    <%= image_tag 'logo.png', alt: 'MySite', size: '150x70' %>
+    <%= image_tag 'logo.png', class: 'logo-img', alt: 'MySite', size: '150x70' %>
   </div>
-
-  <nav>
-    <ul class="nav-list">
+  <div class="menu-toggle" id="menu-toggle">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+    <nav class="nav-menu" id="nav-menu">
+      <ul class="nav-list">
         <li class="nav-item"><%= link_to 'Portfolio', top_path %></li>
         <li class="nav-item"><%= link_to 'Feature', top_path %></li>
         <li class="nav-item"><%= link_to 'Profile', top_path %></li>
         <li class="nav-item"><%= link_to 'Contact', top_path %></li>
-    </ul>
-  </nav>
+      </ul>
+    </nav>
+  
 </div>
